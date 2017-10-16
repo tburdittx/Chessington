@@ -1,4 +1,6 @@
-﻿namespace Chessington.GameEngine
+﻿using System;
+
+namespace Chessington.GameEngine
 {
     public struct Square
     {
@@ -44,6 +46,7 @@
         {
             return !left.Equals(right);
         }
+
 
         public override string ToString()
         {
